@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Narrative Report Generator",
+  "version": "0.1.0",
+  "description": "Generate a structured narrative/propaganda analysis report from pasted text and a URL using a local Ollama Llama model.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:11434/*",
+    "http://127.0.0.1:11434/*"
+  ],
+  "action": {
+    "default_title": "Narrative Report Generator",
+    "default_popup": "popup.html"
+  }
+}
